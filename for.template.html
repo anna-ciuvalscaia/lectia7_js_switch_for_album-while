@@ -1,0 +1,18 @@
+<script>
+    // for - days
+
+let days = ["x", "Monday", "Tuesday ", "Wednesday", 
+               "Thursday", "Friday", "Saturday", "Sunday"]
+document.write(`<ul>`)
+for( item = 1 ; item <= 7 ; item++) {
+    document.write(` <li style="list-style-type: none; ">*  
+                   ${item}. ${days[item]}</li>`)
+                   
+                   if (item <= days.length) {
+     
+    } else if (item > 7) {false}              
+}
+document.write(`</ul>`)
+
+
+</script>

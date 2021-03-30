@@ -1,0 +1,24 @@
+<script>
+// for - child
+
+const start = 1
+const end   = 9
+
+document.write(`<ul>`)
+ // ##### for  ##### 
+for( item = start ; item < end ; item++){
+    if (start == item) {
+    document.write(`<li> :first-child</li>`) 
+} 
+    document.write(`<li>  :nth-child(${item})</li>`)
+}
+ // ##### for  ##### 
+
+ // #### if ####
+    if(end == item) {
+    document.write(`<li> :last-child</li>`)
+}
+ // #### if ####
+document.write(`</ul>`)
+
+</script>

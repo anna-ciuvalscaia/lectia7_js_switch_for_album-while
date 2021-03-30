@@ -1,0 +1,52 @@
+<body style="font-family: monospace; line-height: 6px; font-size: small;">
+    
+
+ <script>
+    //   2d map for loop example 
+
+
+    // the map of a room 10 x 10 m
+    // rx, ry = coord of vacuum cleaner robot
+    // ..........
+    // ..........
+    // ..........
+    // ..........
+    // ..........
+    // ..........
+    // ..........
+    // ..........
+    // ..........
+    // ..........
+
+    // HW: we have 2 more coords: sx, sy - station
+    // print "S"
+
+    let rx = 7
+    let ry = 5
+    let sx = 2
+    let sy = 10
+
+// ########### line x 10 ###########
+    for (let y = 1; y <= 10; y++){
+
+        // ############# dot x 10 ###########
+        for (let x = 1; x <= 10; x++){
+            if(x == rx && y == ry){
+                document.write( `R` )
+                
+            } else if (x == sx && y == sy){
+                document.write( `S` )
+            } else {
+              document.write( `.` )  
+            }
+            
+        }
+        document.write(`<br>`)
+       // ############# dot x 10 ###########
+    }
+ // ########### line x 10 ###########
+
+</script>   
+</body>
+
+
