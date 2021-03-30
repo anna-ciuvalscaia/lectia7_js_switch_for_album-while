@@ -1,0 +1,1 @@
+# lectia7_js_switch_for_album-while
